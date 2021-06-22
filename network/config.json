@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+    "logo": {
+        "file": "https://upload.wikimedia.org/wikipedia/commons/8/82/SWW_master1_200X125.fw.png",
+        "link": "",
+        "text": "James Mercer, Dale Millington, Joshua Pocock"
+    },
+  "text": {
+    "more": "DMA Connectivity v1.1",
+    "intro": "",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Meters",
+    "colorLabel": "AreaType",
+    "nodeLabel": "DMA"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "areatype",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
